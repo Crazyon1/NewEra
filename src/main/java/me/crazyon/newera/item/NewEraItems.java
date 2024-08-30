@@ -23,7 +23,7 @@ public class NewEraItems {
     public static Item register(Item item, String id) {
 
         // Create the identifier for the item.
-        Identifier itemID = Identifier.of(NewEra.MOD_ID, id);
+        Identifier itemID = Identifier.of(NewEra.MOD_ID, id);//aa
 
 
         // Return the registered item!
