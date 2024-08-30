@@ -1,0 +1,10 @@
+1. make tardis coral grow tardis and add crafting recipe for it
+2. make tardises aasigned to the player who grows them and make each Tardis different from each other
+3. make interior dimension and add door functions for outside and inside
+4. make interior room generate per tardis and assign doors to them
+5. make roundels blocks
+6. make console block
+7. add controls
+8. add sonic 
+9. add regeneration
+10.add planets and different dimensions with mobs etc
