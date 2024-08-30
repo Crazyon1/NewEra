@@ -33,7 +33,7 @@ public class NewEraItems {
     public static void intialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
-            itemGroup.add(TARDIS_ITEM);
+            itemGroup.add(TARDIS_ITEM); //aa
         });
 
     }
