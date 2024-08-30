@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "new_era:item/new_era"
+    "layer0": "new_era:item/coral"
   }
 }
