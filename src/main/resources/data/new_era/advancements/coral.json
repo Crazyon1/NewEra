@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_era:coral"
+    },
+    "title": "What is that?",
+    "description": "Craft a Tardis Coral for the first time",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "new_era:textures/item/background.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items" : [
+          {
+            "items": [
+              "new_era:coral"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

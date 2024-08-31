@@ -21,6 +21,7 @@ public class CoralItem extends Item {
         if(stack.getItem() != this) return ActionResult.FAIL;
         if(context.getWorld().isClient) return ActionResult.PASS;
         stack.decrement(1);
+
         System.out.println("Works");
 
 
