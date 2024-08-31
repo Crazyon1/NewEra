@@ -10,9 +10,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class NewEraItems {
-    public static final Item TARDIS_ITEM = register(new Item(new Item.Settings()),"coral");
+    public static final Item TARDIS_ITEM = register(new CoralItem(new Item.Settings().rarity(Rarity.RARE)),"coral");
     public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(
             Registries.ITEM_GROUP.getKey(),
             new Identifier(NewEra.MOD_ID, "items")
