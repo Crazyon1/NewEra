@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WWW",
-    "WRW",
-    "WWW"
+    "DDD",
+    "DDD",
+    "DDD"
   ],
   "key": {
-    "W": {
-      "tag": "minecraft:oak_log"
-    },
-    "R": {
-      "item": "minecraft:redstone"
+    "D": {
+      "tag": "minecraft:dirt"
     }
   },
   "result": {
-    "id": "new_era:coral",
+    "item": "new_era:coral",
     "count": 4
   }
 }
