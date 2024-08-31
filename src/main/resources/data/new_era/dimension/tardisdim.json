@@ -1,15 +1,17 @@
 {
-  "type": "new_era:dim_type",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:void",
+      "biome": "minecraft:the_void",
       "lakes": false,
       "features": false,
-      "layers": [],
-      "structures": {
-        "structures": {}
-      }
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ]
     }
   }
 }
