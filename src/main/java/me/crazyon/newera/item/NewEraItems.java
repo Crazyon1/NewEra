@@ -12,8 +12,10 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
+
 public class NewEraItems {
     public static final Item TARDIS_ITEM = register(new CoralItem(new Item.Settings().rarity(Rarity.RARE)),"coral");
+    public static final Item CRYSTAL_ITEM = register(new CoralItem(new Item.Settings().rarity(Rarity.RARE)),"blue_crystal");
     public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(
             Registries.ITEM_GROUP.getKey(),
             new Identifier(NewEra.MOD_ID, "items")
@@ -31,7 +33,6 @@ public class NewEraItems {
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, NewEraItems.CUSTOM_ITEM_GROUP_KEY, NewEraItems.CUSTOM_ITEM_GROUP);
     }
-
     public static ItemStack TARDIS_ITEMSTACK() {
         return new ItemStack(TARDIS_ITEM);
     }

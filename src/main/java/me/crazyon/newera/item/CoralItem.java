@@ -25,5 +25,6 @@ public class CoralItem extends Item {
         System.out.println("Works");
 
 
-        return ActionResult.success(true);// a
+        return ActionResult.success(true);
+    }
 }
